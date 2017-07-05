@@ -15,13 +15,11 @@ Button Text (Hover): #FFFFFF
 Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343*/
 
-
-body{
+body {
   margin: 0 auto;
 }
 
-
-.topNav{
+.topNav {
   height: 80px;
   background: white;
   position: fixed;
@@ -32,26 +30,26 @@ body{
   border-top: 0;
 }
 
-.topNav ul{
+.topNav ul {
   list-style: none;
   display: flex;
   justify-content: start;
   align-items: center;
 }
 
-.topNav img{
+.topNav img {
   width: 50%;
   margin-left: none;
 }
 
-.anchors{
+.anchors {
   margin-left: 380px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.topNav a{
+.topNav a {
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   color: #968772;
@@ -59,22 +57,24 @@ body{
   padding: 20px;
 }
 
-.topNav a:hover{
+.topNav a:hover {
   color: #CD5D67;
 }
 
+
 /*================section============*/
 
-#background{
+#background {
   margin-top: 80px;
   position: relative;
 }
-#background img{
+
+#background img {
   width: 100%;
   position: absolute;
 }
 
-#innerContent{
+#innerContent {
   height: 400px;
   width: 800px;
   position: relative;
@@ -84,7 +84,7 @@ body{
   background-color: #F2F1E8;
 }
 
-#innerContent h2{
+#innerContent h2 {
   text-align: center;
   color: #131511;
   font-family: 'Merriweather', serif;
@@ -92,7 +92,7 @@ body{
   font-size: 40px;
 }
 
-#innerContent h3{
+#innerContent h3 {
   text-align: center;
   font-family: 'Merriweather', serif;
   color: #131511;
@@ -100,7 +100,7 @@ body{
   font-size: 30px;
 }
 
-form{
+form {
   padding-top: 2%;
   padding-bottom: 2%;
   width: 100%;
@@ -111,22 +111,22 @@ form{
   flex-direction: column;
 }
 
-.name{
+.name {
   margin: 5px;
   border-bottom: 1.5px solid #968772;
 }
 
-.email{
+.email {
   margin: 5px;
   border-bottom: 1.5px solid #968772;
 }
 
-.form input{
+.form input {
   border: none;
   background: #F2F1E8;
 }
 
-button{
+button {
   position: relative;
   left: 40%;
   margin: 10px;
@@ -138,5 +138,4 @@ button{
   text-align: center;
   text-decoration: none;
   font-size: 16px;
-
 }

@@ -15,13 +15,13 @@ Button Text (Hover): #FFFFFF
 Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343*/
 
-body{
+body {
   margin: 0 auto;
   /*display: flex;
   flex-direction: column;*/
 }
 
-.topNav{
+.topNav {
   height: 80px;
   background: white;
   /*border: solid black;*/
@@ -33,7 +33,7 @@ body{
   border-top: 0;
 }
 
-.topNav ul{
+.topNav ul {
   /*border: solid black;*/
   list-style: none;
   display: flex;
@@ -41,19 +41,19 @@ body{
   align-items: center;
 }
 
-.topNav img{
+.topNav img {
   width: 50%;
   margin-left: none;
 }
 
-.anchors{
+.anchors {
   margin-left: 380px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.topNav a{
+.topNav a {
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   color: #968772;
@@ -61,12 +61,14 @@ body{
   padding: 20px;
 }
 
-.topNav a:hover{
+.topNav a:hover {
   color: #CD5D67;
 }
 
+
 /*==========================section1==========================*/
-.top1{
+
+.top1 {
   margin-top: 80px;
   /*border: solid black;*/
   background: #F2F1E8;
@@ -76,7 +78,7 @@ body{
   justify-content: center;
 }
 
-.top{
+.top {
   /*border: solid black;*/
   width: 70%;
   display: flex;
@@ -85,30 +87,30 @@ body{
   align-items: center;
 }
 
-.header h1{
+.header h1 {
   margin-top: 5px;
   /*border: solid black;*/
   font-size: 50px;
   font-weight: 300;
 }
 
-.paragraph1{
+.paragraph1 {
   margin-top: 10px;
   /*border: solid black;*/
   padding-bottom: 20px;
 }
 
-.paragraph1 p{
+.paragraph1 p {
   font-size: 18px;
   font-weight: lighter;
   line-height: 30px;
 }
 
-.paragraph1 p a{
+.paragraph1 p a {
   color: #968772;
 }
 
-.paragraph1 img{
+.paragraph1 img {
   align-self: center;
   padding-right: 10px;
   padding-bottom: 10px;
@@ -116,109 +118,110 @@ body{
   float: left;
 }
 
-aside{
+aside {
   align-items: start;
   /*border: solid black;*/
   border-left: 1px solid #968772;
 }
 
-.quote{
+.quote {
   font-style: italic;
   padding: 20px;
   padding-left: 100px;
 }
 
-.paragraph2 h3{
+.paragraph2 h3 {
   font-size: 20px;
   font-weight: 100;
 }
 
-.paragraph2 p{
+.paragraph2 p {
   font-size: 18px;
   font-weight: 100;
   line-height: 30px;
 }
 
+
 /*==========================section2==========================*/
-.background{
+
+.background {
   height: 300px;
   width: 100%;
 }
 
-
- .image{
-   width: 100%;
-   height: 300px;
-   object-fit: cover;
-   overflow: hidden;
- }
-
- .image img{
-   width: 100%;
- }
-
- .p{
-   color: #F2F1E8;
-   text-align: center;
-   font-size: 50px;
-   font-family: 'Merriweather', serif;
-   position: relative;
-   bottom: 250px;
- }
-
- /*==========================section3==========================*/
-.bottom{
-background: #F2F1E8;
-height: 800px;
-width: 100%;
-font-family: 'Merriweather', serif;
-display: flex;
-justify-content: center;
+.image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  overflow: hidden;
 }
 
-.s3Content{
+.image img {
+  width: 100%;
+}
+
+.p {
+  color: #F2F1E8;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Merriweather', serif;
+  position: relative;
+  bottom: 250px;
+}
+
+
+/*==========================section3==========================*/
+
+.bottom {
+  background: #F2F1E8;
+  height: 800px;
+  width: 100%;
+  font-family: 'Merriweather', serif;
+  display: flex;
+  justify-content: center;
+}
+
+.s3Content {
   /*border: solid black;*/
-
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-   width: 70%;
- }
-
- .float{
-   width: 100%;
-   height: 50%;
-   border: solid #F2F1E8;
-   display: flex;
-   flex-direction: row;
- }
-
- #topP{
-   /*border: solid black;*/
-   width: 6000px;
- }
-
- #topP h3{
-   font-weight: lighter;
-   font-size: 25px;
- }
-
- #topP p{
-   font-weight: lighter;
-   font-size: 16px;
-   line-height: 30px;
- }
-
-#d{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  width: 70%;
 }
 
-.dimg{
+.float {
+  width: 100%;
+  height: 50%;
+  border: solid #F2F1E8;
+  display: flex;
+  flex-direction: row;
+}
+
+#topP {
+  /*border: solid black;*/
+  width: 6000px;
+}
+
+#topP h3 {
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+#topP p {
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+#d {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dimg {
   border: solid black;
   height: 180px;
   object-fit: cover;
@@ -226,61 +229,63 @@ align-items: center;
   /*border: solid black;*/
 }
 
- .dimg img{
-   width: 100%;
-   height: 180px;
- }
+.dimg img {
+  width: 100%;
+  height: 180px;
+}
 
- #d p{
-   font-weight: lighter;
-   font-size: 14px;
- }
+#d p {
+  font-weight: lighter;
+  font-size: 14px;
+}
 
- .table{
-   border: solid #F2F1E8;
-   height: 400px;
-   width: 100%;
-   text-align: left;
- }
+.table {
+  border: solid #F2F1E8;
+  height: 400px;
+  width: 100%;
+  text-align: left;
+}
 
- .tcontent{
-   /*border: solid black;*/
-   width: 100%;
- }
+.tcontent {
+  /*border: solid black;*/
+  width: 100%;
+}
 
- .tcontent h3{
-   font-size: 25px;
-   font-weight: lighter;
- }
+.tcontent h3 {
+  font-size: 25px;
+  font-weight: lighter;
+}
 
- table{
-   margin-bottom: 20px;
-   font-size: 20px;
-   font-weight: lighter;
-   width: 90%;
-   border-collapse: collapse;
- }
+table {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: lighter;
+  width: 90%;
+  border-collapse: collapse;
+}
 
- table, th, td {
-   border: 1px solid black;
- }
+table, th, td {
+  border: 1px solid black;
+}
 
- tr:nth-child(even) {
-   background-color: #968772;
- }
+tr:nth-child(even) {
+  background-color: #968772;
+}
 
- table tr th {
-   padding: 10px;
-   border: 1px solid black;
- }
+table tr th {
+  padding: 10px;
+  border: 1px solid black;
+}
 
- table tr td {
-   padding: 10px;
-   text-align: center;
- }
+table tr td {
+  padding: 10px;
+  text-align: center;
+}
+
+
 /*==============footer==============*/
 
-footer{
+footer {
   border: solid #2B2F26;
   font-family: 'Merriweather', serif;
   background: #2B2F26;
@@ -290,6 +295,6 @@ footer{
   margin-top: none;
 }
 
-#footerp{
+#footerp {
   padding: 15px;
 }

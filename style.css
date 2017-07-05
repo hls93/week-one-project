@@ -1,5 +1,7 @@
 /*font-family: 'Merriweather', serif;
 font-family: 'Roboto', sans-serif;*/
+
+
 /*Background: #F2F1E8
 Text: #131511
 Inline Link: #968772
@@ -15,11 +17,11 @@ Button Text (Hover): #FFFFFF
 Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343*/
 
-body{
+body {
   margin: 0 auto;
 }
 
-.topNav{
+.topNav {
   height: 80px;
   background: white;
   position: fixed;
@@ -30,26 +32,26 @@ body{
   border-top: 0;
 }
 
-.topNav ul{
+.topNav ul {
   list-style: none;
   display: flex;
   justify-content: start;
   align-items: center;
 }
 
-.topNav img{
+.topNav img {
   width: 50%;
   margin-left: none;
 }
 
-.anchors{
+.anchors {
   margin-left: 380px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.topNav a{
+.topNav a {
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   color: #968772;
@@ -57,13 +59,14 @@ body{
   padding: 20px;
 }
 
-.topNav a:hover{
+.topNav a:hover {
   color: #CD5D67;
 }
 
+
 /*==========================section==========================*/
 
-.middle{
+.middle {
   width: 100%;
   height: 900px;
   /*border: solid black;*/
@@ -71,30 +74,32 @@ body{
   margin-top: 80px;
 }
 
-.headers{
+.headers {
   font-family: 'Merriweather', serif;
   text-align: center;
   color: #131511;
   padding: 30px;
 }
 
-.headers h1{
+.headers h1 {
   font-size: 40px;
   font-weight: 100;
 }
 
-.headers h3{
+.headers h3 {
   font-size: 30px;
   font-weight: 200;
 }
 
-.gallery{
+.gallery {
   height: 70%;
   width: 100%;
 }
 
+
 /*==============row1=============*/
-.row1{
+
+.row1 {
   /*border: solid black;*/
   height: 52%;
   width: 100%;
@@ -104,45 +109,46 @@ body{
   padding: 5px;
 }
 
-
-.img1{
+.img1 {
   padding: 5px;
   width: 60%;
   height: 100%;
-
 }
-.img1 img{
+
+.img1 img {
   width: 100%;
   height: 320px;
   object-fit: cover;
   overflow: hidden;
 }
 
-.img2{
+.img2 {
   padding: 5px;
   width: 19%;
   height: 100%;
 }
-.img2 img{
+
+.img2 img {
   width: 100%;
   height: 320px;
   object-fit: cover;
   overflow: hidden;
 }
 
-.img3{
+.img3 {
   padding: 5px;
   width: 19%;
   height: 100%;
 }
-.img3 img{
+
+.img3 img {
   width: 100%;
   height: 320px;
   object-fit: cover;
   overflow: hidden;
 }
 
-.row1 p{
+.row1 p {
   position: relative;
   bottom: 80px;
   font-family: 'Merriweather', serif;
@@ -153,20 +159,22 @@ body{
   padding: 5px;
 }
 
-.img1 p{
+.img1 p {
   width: 20%;
 }
 
-.img2 p{
+.img2 p {
   width: 15%;
 }
 
-.img3 p{
+.img3 p {
   width: 28%;
 }
 
+
 /*==============row1=============*/
-.row2{
+
+.row2 {
   /*border: solid black;*/
   margin-top: 0 auto;
   height: 40%;
@@ -177,63 +185,63 @@ body{
   padding: 5px;
 }
 
-.img4{
+.img4 {
   /*border: solid black;*/
   padding: 5px;
   width: 20%;
   height: 100%;
-
 }
-.img4 img{
+
+.img4 img {
   width: 100%;
   height: 250px;
   object-fit: cover;
   overflow: hidden;
 }
 
-.img5{
+.img5 {
   /*border: solid black;*/
   padding: 5px;
   width: 20%;
   height: 100%;
-
 }
-.img5 img{
+
+.img5 img {
   width: 100%;
   height: 250px;
   object-fit: cover;
   overflow: hidden;
 }
 
-.img6{
+.img6 {
   /*border: solid black;*/
   padding: 5px;
   width: 40%;
   height: 100%;
-
 }
-.img6 img{
+
+.img6 img {
   width: 100%;
   height: 250px;
   object-fit: cover;
   overflow: hidden;
 }
 
-.img7{
+.img7 {
   /*border: solid black;*/
   padding: 5px;
   width: 20%;
   height: 100%;
-
 }
-.img7 img{
+
+.img7 img {
   width: 100%;
   height: 250px;
   object-fit: cover;
   overflow: hidden;
 }
 
-.row2 p{
+.row2 p {
   position: relative;
   bottom: 80px;
   font-family: 'Merriweather', serif;
@@ -244,25 +252,26 @@ body{
   padding: 5px;
 }
 
-.img4 p{
+.img4 p {
   width: 30%;
 }
 
-.img5 p{
+.img5 p {
   width: 57%;
 }
 
-.img6 p{
+.img6 p {
   width: 25%;
 }
 
-.img7 p{
+.img7 p {
   width: 63%;
 }
 
+
 /*==============footer==============*/
 
-footer{
+footer {
   border: solid #2B2F26;
   font-family: 'Merriweather', serif;
   background: #2B2F26;
@@ -272,6 +281,6 @@ footer{
   margin-top: none;
 }
 
-#footerp{
+#footerp {
   padding: 15px;
 }
