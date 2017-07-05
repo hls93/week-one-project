@@ -112,17 +112,25 @@ form {
 }
 
 .name {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
   margin: 5px;
   border-bottom: 1.5px solid #968772;
 }
 
 .email {
+  border-top: 20px solid #F2F1E8;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
   margin: 5px;
-  border-bottom: 1.5px solid #968772;
+  border-bottom: 2px solid #968772;
 }
 
 .form input {
   border: none;
+  width: 100%;
   background: #F2F1E8;
 }
 
